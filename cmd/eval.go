@@ -28,6 +28,8 @@ var evalCmd = &cobra.Command{
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Evaluating....")
+		fmt.Println("Generating Report....")
+		fmt.Println("To Be Implemented....")
 	},
 }
 

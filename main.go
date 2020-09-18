@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/v-y-a-s/freshcli/cmd"
+import "github.com/v-y-a-s/freshops/cmd"
 
 func main() {
 	cmd.Execute()

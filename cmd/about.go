@@ -21,31 +21,33 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var aboutDesc = `
+
+====================================================================================
+=== FRESHOPS CLI ===================================================================
+====================================================================================
+
+-> [ Tech Leaders         ]  Common standards and guidelines across all projects
+-> [ Developers           ]  Create new projects that adhere to standards
+-> [ Quality Assurance    ]  Find technical spec for projects easily
+-> [ Support Engineers    ]  Maintain projects with ease
+-> [ Project Managers     ]  Audit Report Generation for Projects 
+-> [ Human Resources      ]  Onboard new devs easily 
+-> [ Resourcing           ]  Move Devs across projects 
+-> [ Leadership & Clients ]  Successful project 
+
+====================================================================================
+
+`
+
 // aboutCmd represents the about command
 var aboutCmd = &cobra.Command{
 	Use:   "about",
 	Short: "What is freshops cli?",
-	Long: `
-
-	====================================================================================
-	=== FRESHOPS CLI ===================================================================
-	====================================================================================
-
-	-> [ Tech Leaders         ]  Common standards and guidelines across all projects
-	-> [ Developers           ]  Create new projects that adhere to standards
-	-> [ Quality Assurance    ]  Find technical spec for projects easily
-	-> [ Support Engineers    ]  Maintain projects with ease
-	-> [ Project Managers     ]  Audit Report Generation for Projects 
-	-> [ Human Resources      ]  Onboard new devs easily 
-	-> [ Resourcing           ]  Move Devs across projects 
-	-> [ Leadership & Clients ]  Successful project 
-
-	====================================================================================
-
-	`,
+	Long: aboutDesc,
 
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("create called")
+		fmt.Println(aboutDesc)
 	},
 }
 

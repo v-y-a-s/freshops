@@ -1,4 +1,4 @@
-module github.com/v-y-a-s/freshcli
+module github.com/v-y-a-s/freshops
 
 go 1.15
 
