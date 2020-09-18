@@ -1,4 +1,9 @@
+
+![fresh-logo](/img/freshworks-studio-logo-small.png "freshops")
+
 # Freshops CLI v1.0
+
+
 
 ## What is this? 
 
@@ -11,8 +16,6 @@ This is a cli tool that can be run on any codebase of ours to document project m
 5. Usability 
 
 ## Why should we use this? 
-
-So that
 
 1. all projects have a baseline reliable and vetted spec to refer to 
 2. improve overall quality of our apps and delivery
